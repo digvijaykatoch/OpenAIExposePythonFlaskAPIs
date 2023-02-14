@@ -15,6 +15,7 @@ You can package and run the above Flask application using nohup on a Unix-like s
 * Install the required packages using pip:
 
     ```pip install flask openai```
+    ```pip install flask-cors```
 
 * Run the Flask application in development mode to test it:
 
