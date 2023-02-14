@@ -1,9 +1,11 @@
 from flask import Flask, request
+from flask_cors import CORS
 import openai
 import os
 import re
 
 app = Flask(__name__)
+CORS(app)
 
 # Set up OpenAI API key and model
 openai.api_key = "YOUR_API_KEY"
